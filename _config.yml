@@ -18,7 +18,7 @@ email: contact@wand.net.nz
 description: >-
    WAND is the Network Research Group at the University of Waikato Computer Science Department
 baseurl: ""                               # the subpath of your site, e.g. /blog
-url: "https://wand.nz"  # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://new2.wand.nz"  # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: wand_nz
 github_username: wandnz
 remote_theme: wandnz/jekyll-theme-wand
