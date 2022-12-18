@@ -1,0 +1,104 @@
+- topic: Trace processing
+  name: libtrace
+  description: >-
+    libtrace is a C/C++ library for writing network packet capture and analysis 
+    tools. Libtrace supports reading captured packets from a variety of trace 
+    file formats and live capture methods, including pcap, ERF, native Linux 
+    interfaces, DPDK, Endace DAG cards and many more. Libtrace can also write 
+    packets to trace files or onto interfaces, and supports both reading and 
+    writing of compressed files natively. Code written using libtrace is portable 
+    across all supported input sources and output formats. Libtrace provides 
+    API functions that allow the caller to directly access the contents of a 
+    packet at a given layer (e.g. IPv4, TCP, UDP) without having to process any 
+    preceding layers. Since 2016, libtrace has included a parallel API to allow 
+    packet processing to be spread across multiple threads, using format-native 
+    streaming mechanisms where possible (such as DPDK queues or DAG streams).
+  link: https://github.com/LibtraceTeam/libtrace/wiki
+
+- topic: Archived projects
+  name: Bearwall
+  description: >-
+    Bearwall is a firewall builder for Linux written in bash. Bearwall is built to 
+    handle both ipv4 and ipv6 firewalling by translating all Bearwall rules into 
+    rules for iptables and ip6tables. 
+  link: https://github.com/jimmyish/bearwall/wiki
+
+- topic: Trace processing
+  name: Libflowmanager
+  description: >-
+    Libflowmanager is a library designed to facilitate performing flow-based 
+    measurement tasks using packet-based inputs, particularly packet trace files. 
+    It is based on the libtrace trace processing library. 
+  link: https://github.com/wanduow/libflowmanager
+
+- topic: Trace processing
+  name: Libprotoident
+  description: >-
+    libprotoident is a C/C++ library that uses a lightweight payload inspection 
+    technique to attempt to recognise the application protocol being used by 
+    bidirectional traffic flows. Unlike conventional DPI, libprotoident requires 
+    only four bytes of application layer payload to be present in each packet 
+    to make classification decisions. Libprotoident also does not inspect the 
+    IP addresses inside packets and therefore is effective when used with 
+    anonymised IP packet captures. Libprotoident supports nearly 500 unique 
+    application protocols.
+  link: https://github.com/wanduow/libprotoident/wiki
+
+- topic: Trace processing
+  name: Libwandio
+  description: >-
+    Libwandio is a software library written in C that provides an API for 
+    transparently reading from and writing to files using a variety of supported 
+    compression methods. Provided pthreads are available, I/O performance 
+    will be improved by doing any compression and/or decompression using a 
+    separate thread. 
+  link: https://github.com/wanduow/wandio/wiki
+  
+- topic: Projects
+  name: Libwdcap
+  description: >-
+    Libwdcap: libwdcap is a C/C++ library that provides routines designed 
+    to support long-term network packet trace capture and archival. Libwdcap 
+    will assist with post-capture anonymisation (IP addresses and checksums), 
+    truncation to remove application payload, direction tagging, writing 
+    compressed trace files, regular output file rotation and implementing a 
+    consistent and structured naming scheme for trace files.
+  link: https://github.com/wanduow/libwdcap
+
+- topic: Projects
+  name: OpenLI
+  description: >-
+    The software implementation takes packet capture directly from the network 
+    and packages it into a format suitable for transmission to a law enforcement agency. 
+    OpenLI does not attempt to decrypt or inspect the contents (i.e. post-TCP or -UDP headers) 
+    of the intercepted packets (excluding SIP and RADIUS packets, which we need to fully parse 
+    to identify the appropriate packets to intercept for the target user's session).
+  link: https://openli.nz/
+
+- topic: Projects
+  name: Scamper
+  description: >-
+    Like its predecessor skitter, scamper is a tool that actively probes the Internet 
+    in order to analyze topology and performance. Unlike skitter, scamper supports 
+    both IPv6 and IPv4 probing. In addition, scamper supports the well-known ping and 
+    traceroute techniques, as well as Paris and MDA traceroute, radargun, ally, 
+    mercator, sting, speedtrap, and parts of tbit. Scamper is the prober deployed in 
+    CAIDA's Macroscopic Topology Project. Scamper's developer is Matthew Luckie.
+  link: http://www.caida.org/tools/measurement/scamper/
+
+- topic: Projects
+  name: WITS
+  description: >-
+    The Waikato Internet Traffic Storage project aims to collect and document all the 
+    Internet traces that the WAND Group has in their possession. Some of these trace 
+    sets are now freely available for researchers to download. We hope to continue 
+    releasing other traces in the future.
+  link: ../wits
+
+- topic: Projects
+  name: Faucet
+  description: >-
+    Faucet is a compact open source OpenFlow controller for enterprise networks. It is 
+    lightweight, very efficient and reliable and has extensive hardware support.   
+    Faucet has been developed by WAND and partners including REANNZ and Google.
+  link: https://faucet.nz/

@@ -1,0 +1,24 @@
+---
+# Collections, output value will define a distinct page for each item in the collection.
+collections_dir: collect
+
+collections:
+  people:
+    output: true
+  research:
+    output: true
+  projects:
+    output: true
+  wits:
+    output: true
+
+# #-----Comment out for local use-----
+title: WAND
+email: contact@wand.net.nz
+description: >-
+   WAND is the Network Research Group at the University of Waikato Computer Science Department
+baseurl: ""                               # the subpath of your site, e.g. /blog
+url: "https://wand.nz"  # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: wand_nz
+github_username: wandnz
+remote_theme: wandnz/jekyll-theme-wand

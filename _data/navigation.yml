@@ -1,0 +1,9 @@
+- name: Home
+  link: .
+- name: Research
+  link: research.html
+  drop: y
+- name: People
+  link: people.html
+- name: Contact us
+  link: contact.html
